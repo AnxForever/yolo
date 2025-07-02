@@ -1,0 +1,20 @@
+# Environments
+.venv/
+.venv311/
+
+# IDE / Editor specific
+.idea/
+.vscode/
+*.swp
+
+# Python specific
+__pycache__/
+*.pyc
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log 

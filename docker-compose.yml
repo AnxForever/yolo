@@ -1,0 +1,53 @@
+version: "3.8"
+
+services:
+  # 后端API服务
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: yolo_hub_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      # 将本地的模型和图片目录挂载到容器中
+      # 这样可以方便地更新模型而无需重建镜像
+      - ./yolo11n.pt:/app/yolo11n.pt
+      - ./yolov11n-face.pt:/app/yolov11n-face.pt
+      - ./yolov8n.pt:/app/yolov8n.pt
+      - ./bus.jpg:/app/bus.jpg
+      - ./backend/uploads:/app/uploads
+      - ./backend/results:/app/results
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # 前端Web服务
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: yolo_hub_frontend
+    ports:
+      - "3000:3000"
+    environment:
+      # 将后端的API地址作为环境变量传递给前端
+      NEXT_PUBLIC_API_URL: http://backend:8000/api
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  yolo_models:
+  yolo_uploads:
+  yolo_results: 

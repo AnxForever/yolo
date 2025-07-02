@@ -1,0 +1,154 @@
+{
+  "custom_model": {
+    "total_detections": 158,
+    "total_time": 1.6789536476135254,
+    "image_count": 20
+  },
+  "general_model": {
+    "total_detections": 168,
+    "total_time": 0.306673526763916,
+    "image_count": 20
+  },
+  "detailed_results": [
+    {
+      "image": "bus.jpg",
+      "custom_detections": 2,
+      "custom_time": 1.3552939891815186,
+      "general_detections": 5,
+      "general_time": 0.08371472358703613
+    },
+    {
+      "image": "baseline_result.jpg",
+      "custom_detections": 8,
+      "custom_time": 0.027640819549560547,
+      "general_detections": 9,
+      "general_time": 0.014344930648803711
+    },
+    {
+      "image": "0_Parade_marchingband_1_1004.jpg",
+      "custom_detections": 8,
+      "custom_time": 0.009672880172729492,
+      "general_detections": 10,
+      "general_time": 0.010962724685668945
+    },
+    {
+      "image": "0_Parade_marchingband_1_104.jpg",
+      "custom_detections": 14,
+      "custom_time": 0.025366544723510742,
+      "general_detections": 20,
+      "general_time": 0.012435436248779297
+    },
+    {
+      "image": "1_Handshaking_Handshaking_1_107.jpg",
+      "custom_detections": 1,
+      "custom_time": 0.01247406005859375,
+      "general_detections": 2,
+      "general_time": 0.01218271255493164
+    },
+    {
+      "image": "1_Handshaking_Handshaking_1_134.jpg",
+      "custom_detections": 2,
+      "custom_time": 0.0105133056640625,
+      "general_detections": 3,
+      "general_time": 0.016109704971313477
+    },
+    {
+      "image": "10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_240.jpg",
+      "custom_detections": 50,
+      "custom_time": 0.013817310333251953,
+      "general_detections": 11,
+      "general_time": 0.010381698608398438
+    },
+    {
+      "image": "10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_368.jpg",
+      "custom_detections": 13,
+      "custom_time": 0.06350374221801758,
+      "general_detections": 14,
+      "general_time": 0.010406970977783203
+    },
+    {
+      "image": "11_Meeting_Meeting_11_Meeting_Meeting_11_102.jpg",
+      "custom_detections": 6,
+      "custom_time": 0.010498285293579102,
+      "general_detections": 6,
+      "general_time": 0.011274099349975586
+    },
+    {
+      "image": "11_Meeting_Meeting_11_Meeting_Meeting_11_108.jpg",
+      "custom_detections": 2,
+      "custom_time": 0.009690999984741211,
+      "general_detections": 14,
+      "general_time": 0.009115934371948242
+    },
+    {
+      "image": "12_Group_Group_12_Group_Group_12_10.jpg",
+      "custom_detections": 14,
+      "custom_time": 0.008870601654052734,
+      "general_detections": 14,
+      "general_time": 0.010960578918457031
+    },
+    {
+      "image": "12_Group_Group_12_Group_Group_12_101.jpg",
+      "custom_detections": 8,
+      "custom_time": 0.009345054626464844,
+      "general_detections": 10,
+      "general_time": 0.011116981506347656
+    },
+    {
+      "image": "13_Interview_Interview_2_People_Visible_13_1001.jpg",
+      "custom_detections": 13,
+      "custom_time": 0.006955623626708984,
+      "general_detections": 11,
+      "general_time": 0.009225845336914062
+    },
+    {
+      "image": "13_Interview_Interview_2_People_Visible_13_107.jpg",
+      "custom_detections": 1,
+      "custom_time": 0.01096487045288086,
+      "general_detections": 1,
+      "general_time": 0.011812686920166016
+    },
+    {
+      "image": "14_Traffic_Traffic_14_170.jpg",
+      "custom_detections": 5,
+      "custom_time": 0.009956836700439453,
+      "general_detections": 10,
+      "general_time": 0.011906862258911133
+    },
+    {
+      "image": "14_Traffic_Traffic_14_253.jpg",
+      "custom_detections": 1,
+      "custom_time": 0.010021686553955078,
+      "general_detections": 1,
+      "general_time": 0.0077288150787353516
+    },
+    {
+      "image": "15_Stock_Market_Stock_Market_15_102.jpg",
+      "custom_detections": 1,
+      "custom_time": 0.009891748428344727,
+      "general_detections": 1,
+      "general_time": 0.014376401901245117
+    },
+    {
+      "image": "15_Stock_Market_Stock_Market_15_241.jpg",
+      "custom_detections": 4,
+      "custom_time": 0.01146554946899414,
+      "general_detections": 4,
+      "general_time": 0.00846409797668457
+    },
+    {
+      "image": "16_Award_Ceremony_Awards_Ceremony_16_116.jpg",
+      "custom_detections": 4,
+      "custom_time": 0.032449960708618164,
+      "general_detections": 19,
+      "general_time": 0.015030384063720703
+    },
+    {
+      "image": "16_Award_Ceremony_Awards_Ceremony_16_124.jpg",
+      "custom_detections": 1,
+      "custom_time": 0.030559778213500977,
+      "general_detections": 3,
+      "general_time": 0.015121936798095703
+    }
+  ]
+}
