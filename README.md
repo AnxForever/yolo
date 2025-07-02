@@ -78,3 +78,20 @@ model = YOLO('yolov8n.pt')
 model = YOLO('yolov8l.pt')
 ```
 保存文件后重新运行 `python realtime_test.py`，程序会自动下载新模型。快去感受一下"大模型"带来的强大效果吧！ 
+
+## 新增功能：人脸识别
+
+### 如何运行
+
+1.  **运行命令**:
+    ```powershell
+    python camera_projects/face_recognition_system/advanced_face_recognition.py
+    ```
+2.  **查看结果**:
+    程序会启动人脸识别系统，并弹出一个窗口显示识别结果。
+
+### 注意事项
+
+第一次运行时，DeepFace可能会下载一些情绪识别的预训练模型（大概几十MB），这完全正常，请耐心等待一下。
+
+让我们一起见证奇迹的发生！ 

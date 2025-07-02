@@ -17,4 +17,7 @@ dist/
 *.egg-info/
 
 # Logs
-*.log 
+*.log
+
+# Generated files
+/camera_projects/face_recognition_system/auto_captures/ 
