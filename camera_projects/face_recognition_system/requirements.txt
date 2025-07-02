@@ -1,0 +1,11 @@
+face-recognition
+opencv-python
+ultralytics
+scipy
+Pillow
+tensorflow
+deepface
+tf-keras
+flask
+flask-cors
+psutil 
