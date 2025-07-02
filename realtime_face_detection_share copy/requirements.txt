@@ -1,0 +1,21 @@
+# 实时人脸检测系统依赖包
+# Real-time Face Detection System Dependencies
+
+# YOLO目标检测框架
+ultralytics>=8.0.0
+
+# OpenCV计算机视觉库
+opencv-python>=4.5.0
+
+# 数值计算库
+numpy>=1.21.0
+
+# 图像处理支持
+Pillow>=8.0.0
+
+# 深度学习框架支持（会根据需要自动安装）
+torch>=1.9.0
+torchvision>=0.10.0
+
+# 其他依赖
+matplotlib>=3.3.0 
