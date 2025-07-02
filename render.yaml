@@ -4,9 +4,6 @@ services:
     env: docker
     plan: free # 使用免费套餐
     region: singapore # 选择新加坡服务器，对亚洲访问更友好
-    rootDir: camera_projects/face_recognition_system # 设置服务的根目录
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn --timeout 60 --workers 1 --threads 4 --worker-class gevent ultra_optimized_server:app"
     healthCheckPath: /
     dockerContext: ./camera_projects/face_recognition_system
     dockerfilePath: ./camera_projects/face_recognition_system/Dockerfile 
